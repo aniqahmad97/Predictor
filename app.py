@@ -7,13 +7,6 @@ st.title("Income Predictor")
 
 st.set_page_config(page_title='Income Predictor')
 
-# st.camera_input(label='camera')
-# st.button(label='Click Here')
-# if st.button("Ballons"):
-#     st.ballons()
-# st.write("I dont what to do ")
-# st.error("This is errors")
-# Insert a chat message container.
 with open("model.pkl",'rb') as file:
     model=pickle.load(file) 
 
